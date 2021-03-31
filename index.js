@@ -1,18 +1,18 @@
 var UserAge = +prompt ('Сколько Вам лет?' , 'Сколько вам лет?');
 
 if (UserAge === 0) {
-    message ("лет");
+    message ='лет';
     
 } else if (UserAge === 1) {
-    message ("год");
+    message ='год';
     
-} else if (UserAge < 4) {
-    message ("года");
+} else if (UserAge <= 4) {
+    message ='года';
     
 
 } else {
-    message ("лет");
-
+    message ='лет';
+    
 }
+alert (UserAge + ' ' + message);
 
-alert (UserAge + " " + message);
